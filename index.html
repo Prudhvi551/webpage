@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Service</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #666;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 8px;
+        }
+
+        input {
+            padding: 8px;
+            margin-bottom: 16px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            cursor: pointer;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Car Rental Service</h1>
+    </header>
+
+    <section>
+        <h2>Rent a Car</h2>
+        <p>Explore our fleet and find the perfect car for your journey.</p>
+
+        <form>
+            <label for="pickupDate">Pickup Date</label>
+            <input type="date" id="pickupDate" required>
+
+            <label for="returnDate">Return Date</label>
+            <input type="date" id="returnDate" required>
+
+            <label for="carType">Car Type</label>
+            <select id="carType" required>
+                <option value="compact">Compact</option>
+                <option value="sedan">Sedan</option>
+                <option value="suv">SUV</option>
+                <option value="luxury">Luxury</option>
+            </select>
+
+            <button type="submit">Search for Cars</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Our Fleet</h2>
+        <p>Discover our diverse range of high-quality rental cars.</p>
+
+        <!-- Add car listings here -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Car Rental Service</p>
+    </footer>
+
+</body>
+</html>
